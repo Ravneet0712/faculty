@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.calendar-container {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left side */
+  align-items: flex-start;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+
+.calendar {
+  width: 100%;
+}
+
+.events-list {
+  margin-top: 20px;
+  margin-left: 100px; /* Adjust the margin-left according to your preference */
+  width: 30%; /* Adjust the width according to your preference */
+}
+
+table {
+  border-collapse: collapse;
+  width: 1000%;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  font-weight: bold;
+  color: #444;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
